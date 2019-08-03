@@ -12,11 +12,11 @@ using System.Threading.Tasks;
 namespace FirstTestSol
 {
     [TestClass]
-    public class Class1
+    public class TestClass
     {
         IWebDriver webDriver;
 
-        public Class1()
+        public TestClass()
         {
             webDriver = new ChromeDriver(@"C:\SeleniumWebDrivers");
         }
